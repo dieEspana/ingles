@@ -15,7 +15,7 @@ let score = 0;
 const questions = [
   {
     question: "1. What does AI stand for?",
-    audio: "audios/question1.mp3",
+    audio: "audios/pregunta1.mp3",
     answers: [
       { text: "Artificial Intelligence", correct: true },
       { text: "Automated Integration", correct: false },
@@ -25,7 +25,7 @@ const questions = [
   },
   {
     question: "2. Which language is mainly used for web development?",
-    audio: "audios/question2.mp3",
+    audio: "audios/pregunta2.mp3",
     answers: [
       { text: "Python", correct: false },
       { text: "C++", correct: false },
@@ -35,7 +35,7 @@ const questions = [
   },
   {
     question: "3. What is data encryption used for?",
-    audio: "audios/question3.mp3",
+    audio: "audios/pregunta3.mp3",
     answers: [
       { text: "To protect data from unauthorized access", correct: true },
       { text: "To compress data", correct: false },
@@ -45,7 +45,7 @@ const questions = [
   },
   {
     question: "4. Which device can fly and take pictures?",
-    audio: "audios/question4.mp3",
+    audio: "audios/pregunta4.mp3",
     answers: [
       { text: "Smartwatch", correct: false },
       { text: "Drone", correct: true },
@@ -55,7 +55,7 @@ const questions = [
   },
   {
     question: "5. What have engineers already developed to increase data privacy?",
-    audio: "audios/question5.mp3",
+    audio: "audios/pregunta5.mp3",
     answers: [
       { text: "End-to-end encryption", correct: true },
       { text: "Faster processors", correct: false },
@@ -65,7 +65,6 @@ const questions = [
   },
   {
     question: "6. What language was one of the first in computer history?",
-    // Si tu archivo se llama "pregunta6.mp3" pon exactamente ese nombre aquí:
     audio: "audios/pregunta6.mp3",
     answers: [
       { text: "COBOL", correct: true },
@@ -116,7 +115,7 @@ const questions = [
   },
   {
     question: "11. What programming language is used for Android apps?",
-    audio: "audios/question11.mp3",
+    audio: "audios/pregunta11.mp3",
     answers: [
       { text: "Kotlin", correct: true },
       { text: "PHP", correct: false },
@@ -126,7 +125,7 @@ const questions = [
   },
   {
     question: "12. What is cybersecurity focused on?",
-    audio: "audios/question12.mp3",
+    audio: "audios/pregunta12.mp3",
     answers: [
       { text: "Protecting information systems", correct: true },
       { text: "Improving hardware", correct: false },
@@ -136,7 +135,7 @@ const questions = [
   },
   {
     question: "13. Which of these is a backend language?",
-    audio: "audios/question13.mp3",
+    audio: "audios/pregunta13.mp3",
     answers: [
       { text: "Node.js", correct: true },
       { text: "HTML", correct: false },
@@ -146,7 +145,7 @@ const questions = [
   },
   {
     question: "14. What have students already learned in System Engineering?",
-    audio: "audios/question14.mp3",
+    audio: "audios/pregunta14.mp3",
     answers: [
       { text: "Programming, networks and databases", correct: true },
       { text: "Only video editing", correct: false },
@@ -156,7 +155,7 @@ const questions = [
   },
   {
     question: "15. What will AI probably improve in the future?",
-    audio: "audios/question15.mp3",
+    audio: "audios/pregunta15.mp3",
     answers: [
       { text: "Automation and data analysis", correct: true },
       { text: "Manual work", correct: false },
