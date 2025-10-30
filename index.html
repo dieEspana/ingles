@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Knowledge Game</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="header">
+    <h1>💻 Tech Knowledge Game</h1>
+    <p>Test what you have learned about Technology and System Engineering!</p>
+  </header>
+
+  <main class="quiz-container">
+
+    <!-- 🎥 Imagen o video -->
+    <div class="media-section">
+      <img src="https://media.istockphoto.com/id/1149562319/es/vector/joven-mujer-estudiante-aprendiendo-ingl%C3%A9s-educaci%C3%B3n-lengua-extranjera.jpg?s=612x612&w=0&k=20&c=zVGZ-r-_3VBxrVuQM3hU-F7RKA5TF_m5Ulqwx77_lwQ=" alt="Technology Banner" class="main-image">
+    </div>
+
+    <!-- 🧠 Preguntas -->
+    <div id="quiz-box" class="question-box">
+      <h2 id="question">Question text</h2>
+
+      <!-- 🎤 Aquí se reproducirá tu voz -->
+      <audio id="question-audio" controls class="voice-audio"></audio>
+
+      <div id="answer-buttons" class="btn-grid"></div>
+      <button id="next-btn" class="next-btn">Next →</button>
+    </div>
+
+    <!-- 🏁 Resultados -->
+    <div id="result-container" class="result hidden">
+      <h2>Your Score: <span id="score">0</span>/15</h2>
+      <p>🎯 Great job! You are a real System Engineer!</p>
+
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Congratulations" class="end-image">
+      <button id="restart-btn" class="restart-btn">Play Again 🔁</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Created by Team 5 – Inglés II A2 | Tech Report Project</p>
+  </footer>
+
+  <script src="javaScrip.js"></script>
+</body>
+</html>
